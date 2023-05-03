@@ -1,0 +1,99 @@
+
+<html>
+    <head>
+        <title>LePZan Services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+        <link rel="icon" type="image/png" href="favicon/favicon.png">
+        <meta name="keyword" contents="engineering, services, electrical installation, executive house keeping, plumbing etc">
+        <meta name="description" content="general engineering services and hospitality managment, catering, house keeping, laundry, operation and maintenance of engineering facility etc">
+        <script src="app.js"></script> 
+    
+    </head>
+
+    <body>
+
+        <div id="header-container">
+
+            <div id="header">
+
+                <div id="logo-search-container">
+                    <img id="logo" src="Logo.bmp"/>    
+                    <input type="text"placeholder="seach..."/>
+                </div>
+                <button onclick="handleCreatePost()">Create Post</button>   
+                
+            </div>
+
+        </div>
+        <div id="post-form-container">
+            <form>
+                <label><b>Title</b></label>
+                <input type="text" placeholder="Enter title">
+                <label><b>Description</b></label>
+                <input type="text" placeholder="Enter description">
+                <label><b>Post</b></label>
+                <textarea placeholder="Your post..."></textarea>
+                <button id="hide-btn" onclick="hidePostForm()">Hide Form</button>
+                <button id="save-btn">Save Form</button>
+            </form>
+        </div>
+
+        <div id="main-section-container">
+            
+            <div id="Article-section">
+
+                <img id="article_cover" src="Image.jpg"/>
+
+                <div>
+                    <h1>Ariticle title</h1>
+                    <h3>short information on article</h3> 
+                    <p class="article-info"><i>Written by: Hanny Victor</i></p>
+                    <p class="article-info"><i>date: 22.09.2023</i></p>
+                </div>  
+
+                <div>
+                
+                    <p>paragraph 1</p>
+                    <p>paragraph 2</p>
+                    <p>paragraph 3</p>      
+
+                    <h4>Section header</h4> 
+                    <p>paragraph 1</p>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                        <li>item 5</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="side-section">
+
+                <div>
+                    <h2>Side section</h2> 
+                    <h3>another article</h3>
+                    <h4>another article short information</h4>
+                    <a href="https://www.w3schools.com/html/html_elements.asp">Click here to see</a> 
+                </div>
+
+                <div>
+                    <h2>also Side section</h2> 
+                    <h3>another article title</h3>
+                    <h4>short description</h4>
+                    <a href="https://www.w3schools.com/html/html_styles.asp">Click here to see</a> 
+                </div>
+
+            </div>
+
+        </div>
+        <div id="footer">
+            This is a footer
+        </div>
+
+    </body>
+
+</html>
